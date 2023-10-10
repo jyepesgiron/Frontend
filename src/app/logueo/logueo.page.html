@@ -1,0 +1,28 @@
+<ion-card>
+  <img alt="Silhouette of mountains" width="200px" src="https://www.iconpacks.net/icons/1/free-user-login-icon-305-thumb.png" />
+  <ion-card-header class="header-login">
+    <ion-card-title>Inicio de Sesión</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+
+    <ion-item class="box-form">
+      <ion-label>
+        <ion-icon name="person"></ion-icon>
+      </ion-label>
+      <ion-input name="usuario" placeholder="User"></ion-input>
+    </ion-item>
+
+    <ion-item class="box-form">
+      <ion-label>
+        <ion-icon name="keypad-outline"></ion-icon>
+      </ion-label>
+      <ion-input name="contrasena" type="password" placeholder="Password"></ion-input>
+    </ion-item>
+
+    <section class="enlace-ingreso">
+      <ion-button (click)="Gestion()" expand="block" class="boton">Ingresar</ion-button>
+    </section>
+
+  </ion-card-content>
+</ion-card>
